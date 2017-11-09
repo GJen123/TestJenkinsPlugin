@@ -5,8 +5,14 @@ package selab.myapp;
  *
  */
 public class App {
-  
-  public static void main(String[] args) {
-    System.out.println("Hello World!");
+
+  String name = "";
+
+  public App(String name) {
+    this.name = name;
+  }
+
+  public String getName() {
+    return "Hello " + name;
   }
 }
