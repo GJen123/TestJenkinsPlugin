@@ -9,14 +9,14 @@ public class App {
   String name = "";
 
   public App(String name) {
-    this.name = name;
+    while (true) {
+      System.out.println("test");
+    }
+
   }
 
   public String getName() {
-    while (true) {
-      System.out.println("infinite loop");
-      return "Hello " + name;
-    }
+    return "Hello " + name;
   }
 
   public static void main(String[] args) {
