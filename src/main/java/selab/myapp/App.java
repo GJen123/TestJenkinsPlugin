@@ -13,11 +13,14 @@ public class App {
   }
 
   public String getName() {
-    return "Hello " + name;
+    while (true) {
+      System.out.println("infinite loop");
+      return "Hello " + name;
+    }
   }
 
   public static void main(String[] args) {
-    while(true) {
+    while (true) {
       System.out.println("infinite loop");
     }
   }
